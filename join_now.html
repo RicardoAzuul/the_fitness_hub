@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>The Fitness Hub</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+           <div class="dropdown">
+           <button class="dropbtn">Menu 
+           <i class="fa fa-bars"></i>
+           </button>
+           <div class="dropdown-content">
+           <a href="index.html">Home</a>
+           <a href="join_now.html">Join Now</a>
+           <a href="classes.html">Classes</a>
+           <a href="equipment.html">Equipment/Facilities</a>
+           <a href="membership_benefits.html">Membership Benefits</a>
+           <a href="help_and_contact.html">Help & Contact</a>
+           </div>
+           </div>
+           <a href="index.html" class="logo"><b style="font-size: 20px;color: white;">The Fitness Hub
+           <i class="fa fa-heartbeat"></i></b>
+           </a>
+           <div class="front-social">
+           <a href=""><i class="fa fa-facebook-square"></i></a>
+           <a href=""><i class="fa fa-instagram"></i></a>
+           <a href=""><i class="fa fa-twitter-square"></i></a>
+           </div>
+           </div>
+        </header>
+        <h2 class="sign_up">Sign up to the Gym now!</h2>
+        <div class="row">
+         <select class="options">
+        <option value="">Select Your Membership Type</option>
+         <option value="Day pass" required="required">Day Pass - £4.99</option>
+         <option value="Month pass" required="required">Monthly - £14.99</option>
+        </select>
+        <br><br>
+    <p class="Warning">We need to get some personal details to set up your membership.<br> Please fill out the form below.</p>
+    <br><br> 
+    <form>
+    <fieldset>
+        <legend>Personal Info</legend>
+        <br>
+        <div class="info">
+        First Name:<br>
+        <input type="text" name="firstname" placeholder="First Name" required="required"><br>
+        Last Name:<br>
+        <input type="text" name="lastname" placeholder="Last Name" required="required"><br>
+        Email Address:<br>
+        <input type="email" name="email" placeholder="Email Address" required="required"><br>
+        Mobile Number:<br>
+        <input type="text" name="number" placeholder="Mobile Number" required="required"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="male" class="box" required="required">Male
+        <input type="radio" name="gender" value="female" class="box" required="required">Female
+        <br><br>
+        Date Of Birth:<br>
+        <input type="day" name="day" placeholder="Day" class="dob" required="required">
+        <input type="text" name="month" placeholder="Month" class="dob" required="required">
+        <input type="year" name="year" placeholder="Year" class="dob" required="required"><br>
+        Postcode:<br>
+        <input type="postcode" name="postcode" placeholder="Postcode" required="required"><br>
+        Address:<br>
+        <input type="address" name="address" placeholder="Address" required="required"><br>
+        Town/ City:<br>
+        <input type="town" name="town" placeholder="Town/ City" required="required"><br>
+        Do you require disable access:<br>
+        <input type="radio" name="disable" value="yes" class="box" required="required">Yes
+        <input type="radio" name="disable" value="no" class="box" required="required">No
+        <br><br>
+        <button type="submit" onclick="alert('Form has been submitted! Please check your mailbox for your email confirmation.')">Join Now!</button>
+        <button type="reset">Clear Form!</button>
+        <br><br>
+        </div>
+    </fieldset>
+    </form>
+    </div>
+     <footer>
+            <div id="footer-details" class="row">
+            <a href="index.html">Home</a>
+           <a href="join_now.html">Join Now</a>
+           <a href="classes.html">Classes</a>
+           <a href="equipment.html">Equipment/Facilities</a>
+           <a href="help_and_contact.html">Help & Contact</a>
+        </footer>
+    </body>
+    </html>
