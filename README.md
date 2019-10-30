@@ -10,7 +10,7 @@ My goal for the website was to make it look professional, as my audience would b
 
 
 ## Features
-
+In the future I will use some bootstrap effects to make the scrolling more smooth. as well as making the nav bars come out from the side instead of drop down. 
 
 
 ## Technologies Used 
@@ -27,6 +27,9 @@ I made sure the navigation bar was on every page so the customer can switch to e
 I also added buttons/ links on pages to take customers to the relevant page for that subject. 
 
 ## Deployment 
+This website is hosted by using GitHub pages. This was deployed by the master branch. I can update the page via cloud 9 and it will update the page. I can also update the page automatically by editing  it in the master branch.
+
+To run my repository you can use https://github.com/TLShaw98/the_fitness_hub.git.
 
 ## Credits 
 
